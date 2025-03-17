@@ -78,16 +78,20 @@ We can convert `.wtns` file to json file which is given already while generating
 `witness.circom` have inputs as `prime`, `pre_commitment`, `challenge` & `randomizer` given by user while `/generate_challenge` keeping it constrainted.
 
 - Moving to login page.
-![image](https://hackmd.io/_uploads/HJ-V7FH3kx.png)
+  
+![image](https://github.com/CyberLabs-Infosec/PearlCTF_Challenges_Public_2025/blob/main/crypto/Witness/image/login.jpg)
 
 - Creating user.
-![image](https://hackmd.io/_uploads/HJ8hXYB31x.png)
+  
+![image](https://github.com/CyberLabs-Infosec/PearlCTF_Challenges_Public_2025/blob/main/crypto/Witness/image/register.jpg)
 
 - Thereafter logging in, we will move to this page.
-![image](https://hackmd.io/_uploads/rJYl4KB2kg.png)
+  
+![image](https://github.com/CyberLabs-Infosec/PearlCTF_Challenges_Public_2025/blob/main/crypto/Witness/image/challenge.jpg)
 
 - At first generating challenge.
-![image](https://hackmd.io/_uploads/SypdhYr3yx.png)
+  
+![image](https://github.com/CyberLabs-Infosec/PearlCTF_Challenges_Public_2025/blob/main/crypto/Witness/image/generate_challenge.jpg)
 
 
 we can pick any challenge and randomizer for generation of challenge.
@@ -162,7 +166,8 @@ int32_t main() {
 With this will get the `blinding factor`.
 
 Now lets move to `/verify_proof`.
-![image](https://hackmd.io/_uploads/SyGQJ9r2yl.png)
+
+![image](https://github.com/CyberLabs-Infosec/PearlCTF_Challenges_Public_2025/blob/main/crypto/Witness/image/verify_proof.jpg)
 
 Now here as we know the blinding factor.
 We can use the same circom circuit with given inputs and `blinding_factor` to get the `User Poseidon Hash`.
